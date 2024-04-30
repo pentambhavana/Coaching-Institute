@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.{
+    padding: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    margin-top:0;
+    height: 100vh;
+    background-position: center;
+}
+
+.logo img{
+    border-radius: 14px;
+    margin:10px 0px 5px 10px;
+    width: 60px;
+    bottom:40px;
+    float :left;
+    color:#e5eeee;
+}
+.menu-bar {
+    text-align: center;
+    background-color: black;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li {
+    width: 150px;
+    padding: 15px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .menu-bar ul li:hover {
+    background-color: grey;
+    border-radius: 3px;
+    margin:0px 5px 0px
+}
+
+.menu-bar .fa {
+    margin-right: 10px;
+
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 12px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 180px;
+    padding: 12px;
+    border-bottom: 1px dotted #fff;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: black;
+}
+
+.fa-location-dot {
+    float: right;
+}
+.sub-menu-2 {
+    display: none;
+}
+
+.hover-me:hover .sub-menu-2 {
+    position: absolute;
+    display: block;
+    margin-top: 15px;
+    margin-left: -15px;
+    background: black;
+}
+.menu-bar ul li:hover .sub-menu-2 ul {
+    display: block;
+    margin: 12px;
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul li {
+    width: 180px;
+    padding: 12px;
+    border-bottom: 1px dotted #fff;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child {
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover {
+    color: black;
+}
+.text-box{
+    width:90%;
+    color: black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: right;
+}
+.text-box{
+    font-size: 62px;
+}
+.text-box{
+    margin: 50px 0 50px;
+    font-size: 14px;
+    color:black;
+}
+.container{
+    margin-left: 200px;
+}
+.text-desc{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+    </style>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>Institute Website Desgin</title>
+    <link rel="stylesheet" href="vysh.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <div class="menu-bar">
+        <div class="logo"><img src="logo.jpg" /></div>
+        <ul>
+            <li class="active"><a href="#">HOME</a><i class="fa fa-house-user"></i></li>
+            <li class><a href="#">ABOUT US</a><i class="fa fa-about us"></i></li>
+            <li>
+                <a href="#">COURSE</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="bhavana.html">JEE MAINS/NEET</a></li>
+                        <li><a href="moksh.html">UPSC</a></li>
+                        <li><a href="GROUPS.HTML">GROUPS</a></li>
+                        <li><a href="cat.html">CAT</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="hover-me">
+                <a href="#">CONTACT US</a>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li><a href="#">9956715430</a></li>
+                        <li><a href="#">9075643126</a></li>
+                        <li><a href="#">9870543215</a></li>
+                        <li><a href="#">8907453126</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="header">
+    </div>
+<div class="card4 d-flex flex-row">
+    <img src="https://res.cloudinary.com/dmvjzhqyr/image/upload/v1666618796/OpenDoor/allen_nvdwwt.jpg" class="image3-desc" />
+</div>
+          <h4 class="king">AllIIT JEE</h4>
+        <p class="pking">Allen Coaching Institute Kota, popularly known as Allen Kota is a premier Medical and Engineering coaching institute in Kota Rajasthan. The institute was started in 1988 by Shri Rajesh Maheshwari with just eight students.!!</p>
+        <table >
+            <thead>
+                <tr>.COURSE-JEEMAINS</tr><br>           
+                <tr>.FEE-STRUCTURE-60,000</tr><br>
+                <tr>.COURSE TIME SPAN-9 MONTHS</tr><br>
+            </thead>
+        </table>
+        <a href="login.html" class="hero-btn">REGISTER</a>
+        <div class="star d-flex flex-row">
+            <p>Rating:</p>
+            <i class="fa fa-star fill"></i>
+            <i class="fa fa-star fill"></i>
+            <i class="fa fa-star fill"></i>
+            <i class="fa fa-star fill"></i>
+            <i class="fa fa-star fill"></i>
+        </div>
+<div class="card4 d-flex flex-row">
+    <div class="container1">
+    <img src="https://res.cloudinary.com/dq15o22ab/image/upload/v1666628442/moksh_eamaen.png" class="image4-desc" />
+        <div class="text-desc">
+              <h4 class="king">Aakash is the Best Platform to Crack IIT JEE</h4>
+            <p class="pking">Aakash Coaching Institute Kota, popularly known as Allen Kota is a premier Medical and Engineering coaching institute in Kota Rajasthan. The institute was started in 1988 by Shri Rajesh Maheshwari with just eight students.!!</p>
+            <table >
+                <thead>
+                    <tr>.COURSE-JEEMAINS</tr>           
+                    <tr>.FEE-STRUCTURE-50,000</tr><br>
+                    <tr>.COURSE TIME SPAN-6 MONTHS</tr><br>
+                </thead>
+            </table>
+            <a href="login.html" class="hero-btn">REGISTER</a>
+            <div class="star d-flex flex-row">
+                <p>Rating:</p>
+                <i class="fa fa-star fill"></i>
+                <i class="fa fa-star fill"></i>
+                <i class="fa fa-star fill"></i>
+                <i class="fa fa-star fill"></i>
+            </div>
+        </div>
+        </div>
+        <div class="card4 d-flex flex-row">
+        <img src="https://res.cloudinary.com/dq15o22ab/image/upload/v1666629457/moksh-1_wuz8wz.jpg" class="image5-desc" />
+            <div class="text-desc">
+                  <h4 class="king">MOTION is the Best Platform to Crack IIT JEE</h4>
+                <p class="pking">Motion is India's only institute offering this feature at an enormous level. Generally, students take mock tests covering different topics</p>
+                <table>
+                    <thead>
+                        <tr>.COURSE-JEEMAINS</tr><br>           
+                        <tr>.FEE-STRUCTURE-30,000</tr><br>
+                        <tr>.COURSE TIME SPAN-3.5 MONTHS</tr><br>
+                    </thead>
+                </table>
+                <a href="login.html" class="hero-btn">REGISTER</a>
+                <div class="star d-flex flex-row">
+                    <p>Rating:</p>
+                    <i class="fa fa-star fill"></i>
+                    <i class="fa fa-star fill"></i>
+                    <i class="fa fa-star fill"></i>
+                    
+                </div>
+            </div>   
+</body>
+</html>

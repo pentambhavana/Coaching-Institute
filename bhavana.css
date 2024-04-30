@@ -1,0 +1,137 @@
+.{
+    padding: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    margin-top:0;
+    background: url("front.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.logo img{
+    border-radius: 14px;
+    margin:10px 0px 5px 10px;
+    width: 60px;
+    bottom:40px;
+    float :left;
+    color:#e5eeee;
+}
+.menu-bar {
+    text-align: center;
+    background-color: black;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li {
+    width: 150px;
+    padding: 15px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .menu-bar ul li:hover {
+    background-color: grey;
+    border-radius: 3px;
+    margin:0px 5px 0px
+}
+
+.menu-bar .fa {
+    margin-right: 10px;
+
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 12px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 180px;
+    padding: 12px;
+    border-bottom: 1px dotted #fff;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: black;
+}
+
+.fa-location-dot {
+    float: right;
+}
+.sub-menu-2 {
+    display: none;
+}
+
+.hover-me:hover .sub-menu-2 {
+    position: absolute;
+    display: block;
+    margin-top: 15px;
+    margin-left: -15px;
+    background: black;
+}
+.menu-bar ul li:hover .sub-menu-2 ul {
+    display: block;
+    margin: 12px;
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul li {
+    width: 180px;
+    padding: 12px;
+    border-bottom: 1px dotted #fff;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child {
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover {
+    color: black;
+}
+.text-box{
+    width:90%;
+    color: black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: right;
+}
+.text-box{
+    font-size: 62px;
+}
+.button{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 250px;
+    width: 50px;
+    }
+

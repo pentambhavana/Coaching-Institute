@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+    <div class="header">
+        <h1>REGISTER</h1>
+    </div>
+    <div class="format">
+        <div class="form">
+            <form action="#">
+                Name<br />   <input type="text" id="name" name="name" required />
+            </form>
+        </div>
+        <div class="form">
+            <form action="#">
+                E-mail<br />   <input type="email" id="email" name="emails" required />
+            </form>
+        </div>
+        <div class="form">
+            <form action="#">
+                Username<br />   <input type="text" id="user" name="Username" required />
+            </form>
+        </div>
+        <div class="form">
+            <form action="#">
+                Password<br />   <input type="password" id="pass" name="password" required />
+            </form>
+        </div>
+        <div class="form">
+            <form action="#">
+                Confirm Password<br />  <input type="password" id="conpass" name="password" required />
+            </form>
+        </div>
+        <div class="form">
+            <form action="#">
+                Mobile no.<br />   <input type="number" id="mobno" name="mobileNumber" autocomplete="off" required />
+            </form>
+        </div>
+        <div class="form">
+            <p>Already have an account? <a href="#">REGISTER</a></p>
+        </div>
+        <div class="form">
+            <input type="submit" value="login" onclick="redir()"/>
+        </div>
+    </div>
+    <script>
+        function redir() {
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("pass").value;
+            if (email == "pentambhavana@gmail.com" && password == "abc") {
+               
+                alert("Login Successfully");
+                
+            }
+            else {
+                alert("Invalid Credentials");
+                return;
+            }
+
+        }
+    </script>
+   
+</body>
+</html>
